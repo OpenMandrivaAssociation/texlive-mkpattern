@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/hyphenation/utils/mkpattern
+# catalog-date 2008-08-22 16:39:18 +0200
+# catalog-license lppl
+# catalog-version 1.2
 Name:		texlive-mkpattern
 Version:	1.2
 Release:	1
@@ -44,6 +50,7 @@ the creation of the Galician patterns.
 %doc %{_texmfdistdir}/doc/plain/mkpattern/mkpatdoc.tex
 %doc %{_texmfdistdir}/doc/plain/mkpattern/mkpatter.pdf
 %doc %{_texmfdistdir}/doc/plain/mkpattern/mkpattern-exmpl.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ the creation of the Galician patterns.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
