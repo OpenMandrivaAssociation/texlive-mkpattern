@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-mkpattern
 Version:	1.2
-Release:	9
+Release:	10
 Summary:	A utility for making hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hyphenation/utils/mkpattern
