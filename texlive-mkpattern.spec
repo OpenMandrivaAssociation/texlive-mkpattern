@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A utility for making hyphenation patterns
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/hyphenation/utils/mkpattern
+URL:		https://www.ctan.org/tex-archive/language/hyphenation/utils/mkpattern
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mkpattern.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mkpattern.doc.r%{version}.tar.xz
